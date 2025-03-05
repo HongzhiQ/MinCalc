@@ -26,4 +26,4 @@ It contains:
 | tqdm | 4.66.4  |
 | pandas |  2.0.3 |
 | scikit-learn | 1.3.2  |
-
+| openai | 1.3.0  |
