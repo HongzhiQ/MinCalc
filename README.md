@@ -9,7 +9,7 @@ It contains:
    * **`Convert_Data_Format.py`**: Convert the Dataset into JSON Format.
    * **`Extract_txt_File.py`**: Extract Text from TXT and Convert to JSON Format. This Code Facilitates the Conversion of the LogicQA Dataset.
    * **`Split_Data.py`**: Split the data.
-* The training and inference of LLM are based on the LLaMA Factory [5] framework ([link](https://github.com/hiyouga/LLaMA-Factory/tree/main)). We publish details of our training here: We employed LoRA for parameter-effcient tuning. We set the batch size to 8, thenumber of epochs to 5, the learning rate to 1e-5.maximum text length of 1500 tokens, and testedthe model that performed best on the validation set.
+   * **`LLM Fine tune`**: The training and inference of LLM are based on the LLaMA Factory [5] framework ([link](https://github.com/hiyouga/LLaMA-Factory/tree/main)). We publish details of our training here: We employed LoRA for parameter-effcient tuning. We set the batch size to 8, thenumber of epochs to 5, the learning rate to 1e-5.maximum text length of 1500 tokens, and testedthe model that performed best on the validation set.
 
 
 ### Requirement
